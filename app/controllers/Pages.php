@@ -1,6 +1,8 @@
 <?php
 class Pages extends Controller {
+    public $postModel;
     public function __construct(){
+        $this->postModel = $this->model('Post');
 
     }
 
